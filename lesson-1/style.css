@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container{
+    background: rgb(57, 10, 10);
+    text-align: center;
+}
+.first{
+    color: white;
+}
+.first-span{
+    color: brown;
+}
+.block{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+.second{
+    width: 300px;
+    height: 200px;
+    background: rgb(183, 98, 239);
+}
+.second__h1{
+    text-align: center;
+    font-size: 32px;
+}
+.span{
+   background: blue;
+   color: white;
+}
+.span-text{
+    background: rgb(162, 81, 224);
+    color: white;
+    
+}
+
+
