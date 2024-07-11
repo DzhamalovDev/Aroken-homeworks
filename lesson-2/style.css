@@ -1,0 +1,43 @@
+
+.header{
+    background: rgb(220, 154, 32);
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+.header a{
+    text-decoration: none;
+    color: rgb(57, 54, 54);
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 200px;
+    height: 150px;
+}
+
+.descrip{
+    background: rgb(239, 192, 120);
+}
+.descrip a{
+    text-decoration: none;
+}
+.footer{
+    height: 300px;
+    background-color:blueviolet;
+}
+.footer h6{
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+   
+}
+.footer li{
+    list-style-type: none;
+}
+.footer a:hover{
+    color: rgb(34, 255, 255);
+}
