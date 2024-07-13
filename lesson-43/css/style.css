@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #181e34;
+  font-family: "Montserrat", "Arial", sans-serif;
+  line-height: 150%;
+  color: #fff;
+}
+.container {
+  min-height: 100%;
+  max-width: 930px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  padding: 30px 0 36px;
+}
+.header-nav {
+  margin-left: auto;
+}
+.header-list {
+  display: flex;
+}
+.header-item {
+  margin-right: 30px;
+  color: rgb(123, 164, 200);
+}
+.header-item a:hover {
+  color: rgb(252, 252, 252);
+  transition: 0.4s;
+}
+
+.btn {
+  padding: 14px 30px;
+  border-radius: 100px;
+  background: #fff;
+  color: #2766ae;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: #2766ae;
+  color: rgb(252, 252, 252);
+  transition: 0.4s;
+}
+.hero {
+  background: url(/template/lesson-43/img/hero.jpg) 10% 50% / cover no-repeat;
+  height: 508px;
+}
+.hero-container {
+  padding-top: 120px;
+}
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.first-hero {
+  max-width: 436px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.first-hero p {
+  margin-bottom: 15px;
+}
+
+.first-hero span {
+  color: #01a2cb;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.second-hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+}
+.hero-btn-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 30px;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+  margin-bottom: 10px;
+}
+.hero-btn-two {
+  display: flex;
+  padding: 18px 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: linear-gradient(95deg, #00a4cc 6.7%, #2766ae 91.35%);
+}
+.card {
+  padding: 120px 0;
+}
+.card-title {
+  margin-bottom: 15px;
+}
+.card-descrip {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  text-transform: lowercase;
+  text-align: center;
+  max-width: 513px;
+  margin: 0 auto 60px;
+}
+.card-text {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 14px;
+  margin-bottom: -28px;
+  padding-bottom: 30px;
+}
+.card-item {
+  padding: 0 14px;
+  margin-bottom: 28px;
+  flex: 0 0 25%;
+}
+.card-item-con {
+  border-radius: 16px;
+  border: 2px solid #176bae;
+  background: #197cb8;
+  box-shadow: 4px 4px 13px 0px rgba(5, 13, 41, 0.76);
+  text-align: center;
+  padding: 28px 15px;
+}
+.card-item-list {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.card-item-text {
+  text-align: center;
+}
+.card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 426px;
+  margin: 0 auto;
+  padding: 18px 30px;
+  border-radius: 100px;
+  background: linear-gradient(180deg, #00a4cc 0%, #2766ae 100%);
+}
+/* ============================================================ */
+.footer {
+  border-top: 1px solid #323952;
+  background: #181e34;
+  padding: 60px 0;
+  margin-top: auto;
+  max-height: 361px;
+}
+.footer-inner {
+  display: flex;
+}
+
+.footer-left {
+  max-width: 267px;
+  margin-right: 20%;
+}
+
+.footer-center{
+    max-width: 200px;
+    width: 100%;
+}
+
+.footer-center-margin{
+    margin-right: 28px;
+}
+.footer-img {
+  margin-bottom: 15px;
+}
+.footer-p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.footer-title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.right-item {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
