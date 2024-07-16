@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+ 
+}
+
+body {
+  padding-top: 15px;
+  background: #262628;
+  max-width: 1440px;
+  font-size:15px;
+  color: blanchedalmond;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container{
+  height: 700px;
+  background: linear-gradient(#262628, #fff);
+}
+.block{
+  position: sticky;
+  top: 85%;
+  left: 50%;
+  width: 50vw;
+  height: 60px;
+  background: #fff;
+  border-radius: 100px;
+  margin-right: 50px;
+}
+.circle{
+  position: sticky;
+  top: 80%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  background: red;
+  border-radius: 100px;
+  z-index: 1;
+}
+
