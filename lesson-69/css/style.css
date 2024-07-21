@@ -149,13 +149,14 @@ body {
 }
 .sidebar__item {
   margin-bottom: 20px;
+  transition: all .5s;
 }
 .sidebar__item:last-child {
   margin-bottom: 0;
 }
 .sidebar-link:hover {
   color: #1d6fb6;
-  transition: all 0.5s;
+
 }
 .sidebar__item:hover {
   color: #1d6fb6;
