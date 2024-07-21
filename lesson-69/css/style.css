@@ -43,7 +43,7 @@ body {
   color: #1d6fb6;
   transition: 0.4s;
 }
-.social-links :hover {
+.social-links:hover {
   color: #1d6fb6;
   transition: 0.4s;
 }
