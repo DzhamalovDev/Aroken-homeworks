@@ -33,6 +33,12 @@ body {
   justify-content: end;
   gap: 10px 30px;
 }
+.link-item{
+  transition: all .5s;
+}
+.social-links{
+  transition: all .5s;
+}
 .link-item:hover {
   color: #1d6fb6;
   transition: 0.4s;
