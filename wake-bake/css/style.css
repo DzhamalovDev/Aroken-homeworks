@@ -477,7 +477,7 @@ body {
       display: none;
    }
 }
-/* =============================================== */
+@media(max-width: 890px){
    .footer__inner{
       justify-content: center;
       grid-template: none;
@@ -487,7 +487,10 @@ body {
       display: flex;
       justify-content: center;
    }
-    
+
+
+}
+
 @media(max-width: 800px){
    .hero__inner{
       display: flex;
